@@ -167,6 +167,7 @@ class War_Game:
         for i in range(len(self.players)):
             if self.players[i].get_total_cards() >= 39:
                 result = i
+		print(i, "Won!")
                 return result
         return result
 
