@@ -171,7 +171,7 @@ class War_Game:
                 result = i
 		print(i, "Won!")
                 return result
-	for i in range(len(self.players)):
+	for i in range(len(players)):
 		count += 1
 	print("player count:", count)
         return result
